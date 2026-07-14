@@ -13,6 +13,7 @@ function getArticleTree(): array {
         'misc' => 'Misc',
         'utilities' => 'Utilities',
         'knowledge' => 'Knowledge',
+        ""
     ];
     $subLabels = [
         'windows' => 'Windows',
