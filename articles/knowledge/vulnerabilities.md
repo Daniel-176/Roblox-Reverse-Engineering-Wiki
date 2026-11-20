@@ -17,3 +17,5 @@
 | Scripts can access ClientReplicators to IP log users | Client | Nov 17, 2016 | HIGH |
 | Crypt::verifySignatureBase64 buffer overflow (1024+ bytes) | Needs more info | 2009-2018 | MEDIUM |
 | CVE-2011-3026 can stop avatar loading | Website | Needs more info | LOW |
+| **UNCONFIRMED!** Winsock asset streaming (allows for any content to be streamed through network) | Client & RCC | Needs more info | HIGH |
+| game.NetworkServer.IncommingConnection can grab connecting player ips| Client & RCC | 2007 - 2012 | HIGH |

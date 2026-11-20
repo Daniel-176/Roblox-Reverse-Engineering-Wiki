@@ -1,6 +1,6 @@
 <?php
 $creditsGuideAuthors = [
-    'meditation/meditexts', 'Powdered', 'waterboi', 'Jetray', 'Aep', 'Karma',
+    'meditation/meditexts', 'Powdered', 'waterboi/watrabi', 'Jetray', 'Aep', 'Karma',
     'valley', 'nukley', 'h6di', 'VMsLover', 'shikataganai', 'mssky',
     'DoggoITA', 'ARC', 'zfut', 'SomeoneInTheWorld', 'Atomic', 'dxf',
     'katoe_real', 'simple the dimple', 'hadi', 'Crypt', 'Rocky', 'matt',
@@ -19,7 +19,7 @@ $creditsPrimarySources = ['ORC guide server community', 'lrre.wiki'];
 $contributorMapping = [
     'meditation/meditexts' => ['client/android/meditation-guide', 'client/android/compiler-guide', 'client/android/149-fix', 'client/windows/2015', 'rccservice/windows/not-expiring-jobs', 'knowledge/general-tips'],
     'Powdered' => ['client/windows/powdered-guide', 'knowledge/general-tips'],
-    'waterboi' => ['client/windows/waterboi-guide', 'knowledge/general-tips'],
+    'waterboi/watrabi' => ['client/windows/waterboi-guide', 'knowledge/general-tips'],
     'Jetray' => ['client/windows/waterboi-guide', 'client/windows/2021', 'knowledge/general-tips'],
     'Aep' => ['client/windows/2018', 'client/windows/2018-plus', 'knowledge/general-tips'],
     'Karma' => ['infrastructure/api/games-relay', 'knowledge/general-tips'],
