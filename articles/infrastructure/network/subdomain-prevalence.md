@@ -43,7 +43,7 @@ These subdomains were found in the binaries but are absent from the 1983-entry e
 ¹ `clientsettings` / `FetchClientSettingsData` strings present but domain may be runtime-constructed
 ² VMProtect-obscured; endpoint known from other builds
 
-## Key Observations
+## Observations
 
 - The 2020E **Studio** binary has the most embedded subdomains (13 matches), as it is not VMProtect-packed.
 - The 2020E **Player** binary is VMProtect-packed and only retains `www.roblox.com` in plain text.

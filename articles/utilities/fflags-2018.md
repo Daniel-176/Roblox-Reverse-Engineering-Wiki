@@ -2,7 +2,7 @@
 
 *Credits: ORC guide server community (compilation)*
 
-Extensive list of FFlags and DFFlags for 2018 Roblox clients.
+List of FFlags and DFFlags for 2018 Roblox clients.
 
 ## Animation Flags
 
@@ -35,7 +35,7 @@ Extensive list of FFlags and DFFlags for 2018 Roblox clients.
 - FFlagUseHumanoidAnimatedCustomAnim
 - FFlagUseKeyframeHumanoidAnimations
 
-## Other Notable Flags
+## Other Flags
 
 - DFFlagDataStoreEnabled
 - DFFlagConsoleCodeExecutionEnabled

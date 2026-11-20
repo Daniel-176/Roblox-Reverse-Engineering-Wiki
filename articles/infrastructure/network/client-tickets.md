@@ -6,7 +6,7 @@
 *Tabs*
 ## < 2017
 
-Client tickets are integral for authenticating clients in the 2016 client. This is the older format using Unix timestamps and lacking a protocol version suffix.
+This is the older ticket format used by the 2016 client to authenticate players. It using Unix timestamps and lacking a protocol version suffix.
 
 ### Format
 

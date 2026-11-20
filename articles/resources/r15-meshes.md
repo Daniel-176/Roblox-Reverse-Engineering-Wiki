@@ -4,4 +4,3 @@
 
 [Download the R15 meshes](/vault/discord/orc-guide/misc/R15.zip).
 
-The creator was not identified.

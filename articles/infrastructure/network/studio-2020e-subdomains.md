@@ -3,7 +3,7 @@
 *Description: Subdomains found in the 2020E RobloxStudioBeta.exe via strings analysis*
 *Credits: daniel176 (strings analysis)*
 
-The following subdomains were extracted from `/Middleware/2020E/RobloxStudioBeta.exe` (≈51.5 MB) using `strings`. Unlike the PlayerBeta from the same year, the Studio binary is **not VMProtect-packed** and contains extensive plain-text URL strings.
+The following subdomains were extracted from `/Middleware/2020E/RobloxStudioBeta.exe` (≈51.5 MB) using `strings`. Unlike the PlayerBeta from the same year, the Studio binary is **not VMProtect-packed** and contains many plain-text URL strings.
 
 ## Subdomains
 

@@ -41,7 +41,7 @@ RCC outputs base64 hash, decode to image. For loading a place: `game:Load("rbxas
 The 2012 client retains `RenderView::renderThumb` functionality used by these `ThumbnailGenerator` projects:
 
 - [watrabi/rbxRenderHook](https://github.com/watrabi/rbxRenderHook): fixes brick rendering.
-- [unhappyworld/rbxRenderHook](https://github.com/unhappyworld/rbxRenderHook): removes cURL functionality and supports character thumbnail views. Increase the resolution setting if characters appear too small.
+- unhappyworld/rbxRenderHook (repository no longer available): removes cURL functionality and supports character thumbnail views. Increase the resolution setting if characters appear too small.
 - [RogueCadet/rbxRenderHookRevivalEdition](https://github.com/RogueCadet/rbxRenderHookRevivalEdition): fork of unhappyworld's version with image uploading and revival-oriented changes.
 
 *Credits: watrabi, unhappyworld, RogueCadet. Shared by vmultrawarefan. From ORC Guide, October 28, 2025.*

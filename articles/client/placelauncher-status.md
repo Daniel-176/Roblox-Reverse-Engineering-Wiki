@@ -11,7 +11,7 @@ The client transitions through status codes when joining a game:
 
 ## Unjoinable Statuses
 
-Status codes below `2` are non-joinable errors:
+Status codes above `2` are errors and cannot be joined:
 
 | Code | Meaning | Message |
 |------|---------|---------|

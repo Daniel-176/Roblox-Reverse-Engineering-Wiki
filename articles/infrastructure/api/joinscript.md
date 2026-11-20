@@ -10,7 +10,7 @@ TODO
 
 ## JSON Join Script (2016+)
 
-In 2016, Roblox elected to use JSON join scripts rather than the legacy Lua joinscript.
+Roblox switched from Lua join scripts to JSON join scripts in 2016.
 
 Example JSON:
 ```json

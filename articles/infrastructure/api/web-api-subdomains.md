@@ -70,7 +70,7 @@ These subdomains hosted older endpoints predating the Swagger-documented API sit
 |-----------|-------|
 | `www.roblox.com` | Legacy endpoints (`/places/api-get-details`, `/my/account/json`, etc.) |
 | `assetgame.roblox.com` | Legacy asset/game serving (`/asset/?id=`) |
-| `api.roblox.com` | Original REST API (see [api-docs](api-docs.md) for legacy endpoints) |
+| `api.roblox.com` | Original REST API (see [api-docs](/article.php?path=infrastructure%2Fapi%2Fapi-docs) for legacy endpoints) |
 
 ## oAuth2 / Open Cloud APIs
 
@@ -102,5 +102,5 @@ Base URL: `https://apis.roblox.com`
 
 - Endpoints on `www`, `assetgame`, and `api` subdomains are largely deprecated and may be removed at any time.
 - Most API sites expose a Swagger UI at `/docs` (e.g. `https://thumbnails.roblox.com/docs`).
-- The `api.roblox.com` legacy docs are archived separately in the [api-docs](api-docs.md) article.
+- The `api.roblox.com` legacy docs are archived separately in the [api-docs](/article.php?path=infrastructure%2Fapi%2Fapi-docs) article.
 - Roblox published an official OpenAPI 3.0.4 spec covering Open Cloud APIs on the [creator-docs GitHub](https://github.com/Roblox/creator-docs/blob/main/content/en-us/cloud/reference/openapi.md).

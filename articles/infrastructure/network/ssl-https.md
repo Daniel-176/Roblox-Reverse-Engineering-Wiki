@@ -12,7 +12,7 @@ Search for `CURLOPT_SSL_VERIFYPEER` and bypass the check with a jump.
 
 *Credits: ORC guide server community*
 
-## HTTPS Patch (Most Clients)
+### Most clients
 
 1. Search for the string `mc` and find a result that contains only `mc`.
 2. Double-click it. If a `JE` or `JNE` appears nearby, change it to `JMP`.

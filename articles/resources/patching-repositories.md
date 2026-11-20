@@ -30,7 +30,7 @@ Patching tutorials and other information about Roblox clients.
 
 Guides for patching Roblox clients and RCCService.
 
-- [GitHub repository](https://github.com/rbxcdn/RBXGuides)
+- GitHub: rbxcdn/RBXGuides (repository no longer available)
 
 ## Circuitron
 
@@ -38,4 +38,4 @@ Guides for patching Roblox clients and RCCService.
 
 ## k52d/roblox
 
-[k52d/roblox](https://github.com/k52d/roblox) is a fork with 64-bit support and Qt 5. Watrabi reported frequent crashes after x64 builds were added.
+k52d/roblox (repository no longer available) was a fork with 64-bit support and Qt 5. Watrabi reported frequent crashes after x64 builds were added.
