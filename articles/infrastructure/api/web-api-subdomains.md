@@ -1,6 +1,6 @@
 # Roblox Web API Subdomains Reference
 
-*Description: Comprehensive reference of documented Roblox web API subdomains and theirv1/v2 endpoints (circa 2020)*
+*Description: Reference of documented Roblox web API subdomains and their v1/v2 endpoints (circa 2020)*
 *Credits: juliaoverflow/roblox-web-apis, matthewdean/roblox-web-apis, daniel176 (compilation)*
 
 Base URL pattern: `https://{subdomain}.roblox.com/docs` (Swagger UI)

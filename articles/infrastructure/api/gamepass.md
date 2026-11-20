@@ -1,4 +1,4 @@
-# API — Gamepass Purchasing System
+# API: Gamepass Purchasing System
 
 *Credits: zfut (author), ethanm2502 (void source)*
 

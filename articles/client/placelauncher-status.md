@@ -5,9 +5,9 @@
 
 The client transitions through status codes when joining a game:
 
-- `0` — retry until new status — "Waiting for an available server"
-- `1` — retry until new status — "Server found, loading..."
-- `2` — join — "Joining server"
+- `0`: retry until new status, "Waiting for an available server"
+- `1`: retry until new status, "Server found, loading..."
+- `2`: join, "Joining server"
 
 ## Unjoinable Statuses
 

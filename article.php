@@ -48,12 +48,13 @@ if ($description) {
 echo $html;
 echo '</div>';
 
-echo '<hr><p><a href="index.php">&larr; Back to Main Page</a></p>';
+echo '<hr><p><a href="index.php">Back to Main Page</a></p>';
 
 if ($hasTabs) {
-echo '<script src="js/tabs.js"></script>';
+    echo '<script src="js/tabs.js"></script>';
 }
 
+require_once __DIR__ . '/templates/footer.php';
 
 function sanitizeArticlePath(string $input): ?string {
     if ($input === '') return null;
@@ -185,6 +186,7 @@ function renderMarkdown(string $raw): string {
     $inCodeBlock = false;
     $codeContent = '';
     $codeLang = '';
+    $codeIndent = 0;
     $inList = false;
     $listType = '';
     $inBlockquote = false;
@@ -199,7 +201,7 @@ function renderMarkdown(string $raw): string {
     foreach ($lines as $line) {
         $trimmed = trim($line);
 
-        if (preg_match('/^```(\w*)/', $line, $m)) {
+        if (preg_match('/^( *)```(\w*)\s*$/', $line, $m)) {
             if ($inCodeBlock) {
                 $code = htmlspecialchars($codeContent);
                 $html .= "<pre><code" . ($codeLang ? " class=\"language-" . htmlspecialchars($codeLang) . "\"" : '') . ">$code</code></pre>\n";
@@ -207,13 +209,15 @@ function renderMarkdown(string $raw): string {
                 $codeLang = '';
                 $inCodeBlock = false;
             } else {
+                if ($inList) { $html .= ($listType === 'ul') ? "</ul>\n" : "</ol>\n"; $inList = false; }
                 $inCodeBlock = true;
-                $codeLang = $m[1];
+                $codeLang = $m[2];
+                $codeIndent = strlen($m[1]);
             }
             continue;
         }
         if ($inCodeBlock) {
-            $codeContent .= $line . "\n";
+            $codeContent .= preg_replace('/^ {0,' . $codeIndent . '}/', '', $line) . "\n";
             continue;
         }
 
@@ -309,7 +313,7 @@ function renderMarkdown(string $raw): string {
 
     if ($inCodeBlock) {
         $code = htmlspecialchars($codeContent);
-        $html .= "<pre><code>$code</code></pre>\n";
+        $html .= "<pre><code" . ($codeLang ? " class=\"language-" . htmlspecialchars($codeLang) . "\"" : '') . ">$code</code></pre>\n";
     }
     $closeTable();
     if ($inList) $html .= ($listType === 'ul') ? "</ul>\n" : "</ol>\n";
@@ -317,5 +321,3 @@ function renderMarkdown(string $raw): string {
 
     return $html;
 }
-
-require_once __DIR__ . '/templates/footer.php';

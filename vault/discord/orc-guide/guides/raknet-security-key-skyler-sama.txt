@@ -1,0 +1,27 @@
+How to change the Security Key (aka raknet key) on a ROBLOX client
+
+Tutorial by Skyler-sama (Thanks octacore for providing more information and help about this)
+
+Note: please do not utilize the ratnetkeyhowtochange.txt guide, it's super horrible and you'd likely to land on a BitStream error when you connect
+
+First we gotta understand what is a security key
+A security key is a SHA1 hash containing necessary data used on the client and RCC connection handshake fed to Rot13, It looks like this unhashed: VersionNumber+ClientType+Salt (ex: 0.x.0pcplayersalthere)
+
+The client type can be pcplayer, androidapp, iosapp and macplayer while the salt is stored on the RCC as askljfLUZF and it's technically there for security purposes (u can replace it by searching it on the rcc binary via HxD)
+
+How to generate a new RakNet key:
+- Go onto this website https://md5decrypt.net/en/Sha1/
+- Type in your version number followed by the client type and the salt (ex: 0.x.0pcplayersalthere) and then encrypt
+- Copy the SHA1 hash and go to https://rot13.com/
+- Paste in the SHA1 hash and you should get your new security key
+
+How to replace the raknet key:
+WARNING: Make sure to do this correctly, if not you may land on a BitStream error or version compatibility errors
+- Open up your client on x32dbg
+- Go to Symbols and click RobloxPlayerBeta.exe (or whatever ur client binary is named)
+- Right click -> Search For -> Current Module -> String References
+- After it's done fetching all the strings click on Regex and type ^.[A-Za-z0-9]{40}.$
+If it does not pop up try ^.[A-Qa-q0-9]{40}.$
+- When it pops up click on it and then open up the comment, copy the current Security key and then you're done with x32dbg
+- Open up the client with HxD and search for that specific security key you copied
+- Once searched, replace it with your new one and save the file

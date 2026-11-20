@@ -1,0 +1,18 @@
+How to prevent 2016(or more years) ROBLOX Clients from sending MAC Addresses to the web API.
+
+1. Download x64dbg: https://x64dbg.com/ (Please skip this if you have it already installed).
+2. Search/open up x32dbg.
+3. Drop your RobloxPlayerBeta.exe file into the x32dbg window.
+4. After the debugger initialized, go to the Symbols tab, and double-click the "robloxplayerbeta.exe" Module.
+5. Click on the A2 icon to search up the strings.
+6. Wait until Region Search reached 100%
+7. After that, search up "macAddresses" in the search bar, and double click on the search result.
+8. Search for a "je" instruction, shown in the image.
+9. Click on it, then press Spacebar.
+10. Change from "jz" to "jmp".
+11. Click "OK".
+12. Go to File > Patch File...
+13. Click on "Patch File".
+14. Save it under a name (something).exe
+
+Made by @s3dcat

@@ -1,4 +1,4 @@
-# Site — Asset Redirect & Joinscript
+# Site: Asset Redirect & Joinscript
 
 *Credits: iknowidontexistbutwhatifwin (hosts trick + PHP)*
 
@@ -17,12 +17,12 @@
 ## Less Requests Patch
 
 1. String search "/Error/Dmp.ashx"
-2. Scroll up → JMP all JNE and JE
-3. Done — Roblox will say offline mode but stuff still works
+2. Scroll up, JMP all JNE and JE
+3. Done, Roblox will say offline mode but stuff still works
 
 ## Version Compatibility API
 
 Create two folders on your domain:
 
-- `GetAllowedMD5Hashes` → `{"data":["YOURCLIENTHASH"]}`
-- `GetAllowedSecurityVersions` → `{"data":["0.xxx.0pcplayer"]}`
+- `GetAllowedMD5Hashes`: `{"data":["YOURCLIENTHASH"]}`
+- `GetAllowedSecurityVersions`: `{"data":["0.xxx.0pcplayer"]}`

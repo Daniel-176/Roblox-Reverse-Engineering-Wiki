@@ -7,4 +7,4 @@
 
 ## Download
 
-- [CoreScripts 2010–2019 Archive](/Resources/CoreScripts_2010_-_2019.7z) (919 KB)
+- [CoreScripts 2010-2019 Archive](/Resources/CoreScripts_2010_-_2019.7z) (919 KB)

@@ -1,6 +1,4 @@
 <?php
-error_reporting(0);
-@ini_set('display_errors', '0');
 require_once __DIR__ . '/includes/functions.php';
 require_once __DIR__ . '/templates/credits.php';
 $pageTitle = 'Main Page';
@@ -13,12 +11,13 @@ $tree = getArticleTree();
 
 <div class="welcome-box">
     <h1>Welcome to the Roblox Reverse Engineering Wiki</h1>
-    <p>Compilation of ORC Guides and reverse engineering documents, a public project that can be shared over the ORC Community that helps in the process creation of a ROBLOX revival or for private uses.</p>
+    <p>A collection of ORC guides and reverse engineering notes for Roblox revival projects and private use.</p>
     <p>This wiki contains <strong><?= count($articles) ?></strong> articles.</p>
 
     <div class="links">
         <p><a href="guides.zip" class="download-link">Download All Source Guides (ZIP)</a></p>
-        <p><a href="https://github.com/Daniel-176/Roblox-Reverse-Engineering-Wiki" class="download-link">Get Site's Source Code(with articles!)</a></p>
+        <p><a href="vault.php" class="download-link">Vault (reference files)</a></p>
+        <p><a href="https://github.com/Daniel-176/Roblox-Reverse-Engineering-Wiki" class="download-link">Site source code (with articles)</a></p>
     </div>
 
     <div class="stat-box">
@@ -34,8 +33,8 @@ $tree = getArticleTree();
 </div>
 
 <div id="contributors-section">
-    <h2 class="collapsed" onclick="var s=this.parentNode;var g=s.querySelector('.contributor-grid');var p=s.querySelector('.contributors-intro');if(g.style.display==='none'){g.style.display='';p.style.display='';this.classList.remove('collapsed')}else{g.style.display='none';p.style.display='none';this.classList.add('collapsed')}">Contributors</h2>
-    <p class="contributors-intro">Hover a name to see a contribution.</p>
+    <h2 id="contributors-toggle">Contributors</h2>
+    <p class="contributors-intro">Click a name to see their articles.</p>
 
     <div class="contributor-grid" id="contributor-grid">
         <?php
@@ -56,6 +55,16 @@ $tree = getArticleTree();
 </div>
 
 <script>
+(function() {
+    const toggle = document.getElementById('contributors-toggle');
+    const section = document.getElementById('contributors-section');
+    toggle.addEventListener('click', () => {
+        const hidden = toggle.classList.toggle('collapsed');
+        section.querySelector('.contributor-grid').style.display = hidden ? 'none' : '';
+        section.querySelector('.contributors-intro').style.display = hidden ? 'none' : '';
+    });
+})();
+
 const contributorData = <?= json_encode($contributorData) ?>;
 
 (function() {

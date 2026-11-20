@@ -14,7 +14,7 @@
 
 1. Create `C:\Trunk2012`
 2. Extract source into `C:\Trunk2012\Build`
-3. Create `C:\Trunk2012\Contrib2` → extract contribs
+3. Create `C:\Trunk2012\Contrib2`, extract contribs
 4. Set system variable `CONTRIB_PATH = C:\Trunk2012\Contrib2`
 5. Open .sln in VS 2019
 6. Change all to v110 build tools
@@ -29,7 +29,9 @@
 
 ## Common Errors
 
-- Boost not found → add `$(CONTRIB_PATH)\boost_1_56_0` to include directories
-- Warning as error → disable in C/C++ settings
-- libboost not found → add `$(CONTRIB_PATH)\boost_1_56_0\lib` to library directories
+- Boost not found: add `$(CONTRIB_PATH)\boost_1_56_0` to include directories
+- Warning as error: disable in C/C++ settings
+- libboost not found: add `$(CONTRIB_PATH)\boost_1_56_0\lib` to library directories
 - Vulnerability: fix buffer overflow in signature check with `i<signatureLen && i<=10240`
+
+Watrabi also shared [2016 engine source files](https://drive.google.com/file/d/1agqkRWIFIp_bHkCBDkDwni0aTHkn1pRG/view), which vmultrawarefan recommended for compiling a 2016 client.

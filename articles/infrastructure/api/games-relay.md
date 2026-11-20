@@ -2,8 +2,6 @@
 
 *Credits: lrre.wiki (original documentation), Karma (author), la (original finding)*
 
-Roblox uses various website APIs for its functioning.
-
 ## Legacy Endpoints
 
 | Endpoint | Description |

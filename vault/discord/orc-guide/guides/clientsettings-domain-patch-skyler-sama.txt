@@ -1,0 +1,17 @@
+This is for those who are utilizing Cloudflare tunnels and are hitting a shitty ssl error whenever setting up clientsettings.api
+
+What this patch does is it changes clientsettings.api.revive.com (example subdomain) to clientsettings.revive.com
+
+What you need:
+- HxD
+- a client
+
+1- Launch HxD and open up your client on it
+2- Ctrl+F and type in clientsettings in the search box and search all (you should see /QuietGet/%s.clientsettings or something like that)
+3- Scroll up till you find %sapi.revive.com/%s/?apiKey=%s
+4- Here's the tricky part you'll need to start at the % and write %srevive.com/%s/?apiKey=%s, replace the extra letters with zeros (aka nulls in hex) till you reach an already existing 00 hex
+5- Click on File and then Save or do Ctrl+S
+
+This can fix an issue related to the Client failing to load FFlags which causes a silent crash via WerFault (it'll sometimes report it as a MSVCR110.dll error)
+
+Made by Skyler-sama!

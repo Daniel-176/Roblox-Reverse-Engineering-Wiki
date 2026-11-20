@@ -11,9 +11,11 @@ Disassembly is taking apart binaries (.exe files) to analyze without source code
 | Cutter | Cross-platform disassembler with Ghidra decompiler |
 | IDA Pro + Hex-Rays | Preferred but expensive |
 | Ghidra | NSA-developed, free, requires Java |
-| x64dbg | Powerful Windows debugger |
+| x64dbg | Windows debugger |
 | HxD | Hex editor |
 | Resource Hacker | Resource editor |
+
+For Windows DLL import and Detours examples, see [DLL Hooking for Legacy Roblox Clients](/article.php?path=knowledge%2Fdll-hooking).
 
 ## x86 Instructions
 

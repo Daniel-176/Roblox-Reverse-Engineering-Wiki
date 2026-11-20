@@ -1,0 +1,25 @@
+How to bypass "Roblox version is out of date. Please uninstall and try again" on Danills clients
+
+This guide covers 2017E, I have not tested this on anything older / newer than 2017E. 
+
+You need: x32DBG & a copy of RCCService
+
+open x32dbg
+open your exe
+Click Symbols
+open your exe in Symbols
+press Az 
+search Checking Hash: %s
+click Checking Hash: %s
+run analyse in the command bar
+Scroll up until the red line ends
+Find wcstombs+70
+You see mov al,1 above it
+Right click on mov al,1 and copy its address
+click on the je & press space
+Replace je with jz and replace the address with the one you copied 
+it should look like this
+jz 0x00827F17
+click ok
+Patch file 
+

@@ -1,6 +1,6 @@
 # RakNet Networking Protocol
 
-*Credits: lrre.wiki (original documentation)*
+*Credits: lrre.wiki (original documentation), watrabi (source archive and Rocknet-rblx). From ORC Guide.*
 
 RakNet is the networking protocol that Roblox uses. It uses UDP as a base, and provides out-of-order delivery compensation and reliable transmission.
 
@@ -32,3 +32,12 @@ RakNet is the networking protocol that Roblox uses. It uses UDP as a base, and p
 ### Packet 0x05 - Open Connection Request 1
 
 Fields: Magic (magic), Version (byte), MTU (padding)
+
+## Source Archive
+
+[RbxRakNet source archive](/vault/discord/orc-guide/engine/roblox-raknet.zip), shared by watrabi. The archive's version and date are unknown.
+
+## Roblox 2016 Server Implementation
+
+[Rocknet-rblx](https://github.com/watrabi/Rocknet-rblx) is a server implementation for the Roblox 2016 source. Created by watrabi.
+

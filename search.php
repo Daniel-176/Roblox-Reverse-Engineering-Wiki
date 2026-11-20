@@ -29,7 +29,7 @@ require_once __DIR__ . '/templates/header.php';
     <?php foreach ($results as $r): ?>
     <div class="search-result">
         <div class="result-title"><a href="<?= htmlspecialchars($r['url']) ?>"><?= htmlspecialchars($r['title']) ?></a></div>
-        <div class="result-category"><?= htmlspecialchars($r['category']) ?> &raquo; <?= htmlspecialchars($r['subcategory'] ?? '') ?></div>
+        <div class="result-category"><?= htmlspecialchars($r['category']) ?> / <?= htmlspecialchars($r['subcategory'] ?? '') ?></div>
         <?php if (!empty($r['snippet'])): ?>
         <div class="result-snippet"><?= nl2br(htmlspecialchars($r['snippet'])) ?></div>
         <?php endif; ?>

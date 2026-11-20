@@ -5,9 +5,9 @@
 ## IPA Patching Steps
 
 1. Download desired IPA
-2. Change .ipa → .zip
+2. Change .ipa to .zip
 3. Extract and open
-4. Edit info.plist: roblox.com → 10-char domain
+4. Edit info.plist: roblox.com to 10-char domain
 5. Save, zip back up
 6. Sideload on iPhone
 
@@ -15,9 +15,9 @@ Requires mobile API set up on your site.
 
 ## Alternative Method (mssky)
 
-1. Rename .ipa → .zip, unzip
-2. Replace all roblox.com → your domain via text editor
-3. Re-zip, rename .zip → .ipa
+1. Rename .ipa to .zip, unzip
+2. Replace all roblox.com with your domain via text editor
+3. Re-zip, rename .zip to .ipa
 4. Sideload
 
 ## Required Endpoints

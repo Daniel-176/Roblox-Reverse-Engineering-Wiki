@@ -9,20 +9,20 @@ The subdomain list from [Ranged222's enumeration](https://github.com/Ranged222/A
 
 | Subdomain | 2016 Player | 2018 Player | 2020E Player | 2020E Studio |
 |-----------|:-----------:|:-----------:|:------------:|:------------:|
-| `www.roblox.com` | ✓ | ✓ | ✓ | ✓ |
-| `assetgame.roblox.com` | ✓ | ✓ | | ✓ |
-| `assetdelivery.roblox.com` | | | | ✓ |
-| `api.roblox.com` | ✓ | | | |
-| `devforum.roblox.com` | | ✓ | | ✓ |
-| `developer.roblox.com` | | | | ✓ |
-| `chat.roblox.com` | | | | ✓ |
-| `presence.roblox.com` | | | | ✓ |
-| `en.help.roblox.com` | | | | ✓ |
-| `c0ak.rbxcdn.com` | | | | ✓ |
-| `c0cfly.rbxcdn.com` | | | | ✓ |
-| `assetdelivery.roblox.qq.com` | | | | ✓ |
-| `assetgame.roblox.qq.com` | | | | ✓ |
-| `www.roblox.qq.com` | | | | ✓ |
+| `www.roblox.com` | Yes | Yes | Yes | Yes |
+| `assetgame.roblox.com` | Yes | Yes | | Yes |
+| `assetdelivery.roblox.com` | | | | Yes |
+| `api.roblox.com` | Yes | | | |
+| `devforum.roblox.com` | | Yes | | Yes |
+| `developer.roblox.com` | | | | Yes |
+| `chat.roblox.com` | | | | Yes |
+| `presence.roblox.com` | | | | Yes |
+| `en.help.roblox.com` | | | | Yes |
+| `c0ak.rbxcdn.com` | | | | Yes |
+| `c0cfly.rbxcdn.com` | | | | Yes |
+| `assetdelivery.roblox.qq.com` | | | | Yes |
+| `assetgame.roblox.qq.com` | | | | Yes |
+| `www.roblox.qq.com` | | | | Yes |
 
 **Total matches from list:** 14 unique subdomains
 
@@ -32,13 +32,13 @@ These subdomains were found in the binaries but are absent from the 1983-entry e
 
 | Subdomain | 2016 Player | 2018 Player | 2020E Player | 2020E Studio |
 |-----------|:-----------:|:-----------:|:------------:|:------------:|
-| `test.public.ecs.roblox.com` | ✓ | ✓ | | ✓ |
-| `clientsettings.api.roblox.com` | ✓¹ | ✓¹ | ✓² | ✓ |
-| `upload.crashes.rbxinfra.com` | | | | ✓ |
-| `c0hw.rbxcdn.com` | | | | ✓ |
-| `c0ll.rbxcdn.com` | | | | ✓ |
-| `rbxcdn.qq.com` | | | | ✓ |
-| `roblox.sp.backtrace.io` | | ✓ | | |
+| `test.public.ecs.roblox.com` | Yes | Yes | | Yes |
+| `clientsettings.api.roblox.com` | Yes¹ | Yes¹ | Yes² | Yes |
+| `upload.crashes.rbxinfra.com` | | | | Yes |
+| `c0hw.rbxcdn.com` | | | | Yes |
+| `c0ll.rbxcdn.com` | | | | Yes |
+| `rbxcdn.qq.com` | | | | Yes |
+| `roblox.sp.backtrace.io` | | Yes | | |
 
 ¹ `clientsettings` / `FetchClientSettingsData` strings present but domain may be runtime-constructed
 ² VMProtect-obscured; endpoint known from other builds

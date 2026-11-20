@@ -8,6 +8,8 @@ RCCService is the server Roblox has used since 2008 to manage game servers and r
 
 RCCService exposes a [WSDL interface](Resources/RCCService.wsdl) with the following methods. Types suffixed with "Ex" return strongly-typed `ArrayOfLuaValue` instead of raw arrays.
 
+See [RCCService Job Examples](/article.php?path=rccservice%2Fwindows%2Fjob-examples) for GameServer and Thumbnail settings JSON.
+
 | Method | Parameters | Returns |
 |--------|-----------|---------|
 | HelloWorld | (none) | string |
@@ -26,13 +28,13 @@ RCCService exposes a [WSDL interface](Resources/RCCService.wsdl) with the follow
 
 ### Data Types
 
-**Job** — `{id: string, expirationInSeconds: double, category: int, cores: double}`
+**Job**: `{id: string, expirationInSeconds: double, category: int, cores: double}`
 
-**ScriptExecution** — `{name: string, script: string, arguments: LuaValue[]}`
+**ScriptExecution**: `{name: string, script: string, arguments: LuaValue[]}`
 
-**LuaValue** — `{type: LuaType, value: string, table: LuaValue[]}`
+**LuaValue**: `{type: LuaType, value: string, table: LuaValue[]}`
 
-**LuaType** — enum: LUA_TNIL, LUA_TBOOLEAN, LUA_TNUMBER, LUA_TSTRING, LUA_TTABLE
+**LuaType**: enum of LUA_TNIL, LUA_TBOOLEAN, LUA_TNUMBER, LUA_TSTRING, LUA_TTABLE
 
 ### PHP Usage
 

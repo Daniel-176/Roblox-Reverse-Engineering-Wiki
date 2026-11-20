@@ -1,0 +1,58 @@
+how to ACTUALLY dll hook
+by mike (floof.zip)
+
+first things first i would like to credit marsoc (the owner of boomblox) for teaching me and helping me about this, without him i would've never known how to do this
+second, this will only cover pre-vmprotect clients. so 2012M and below, it may work for vmprotected clients but who's to say.
+
+what you need:
+* Visual Studio (2008 for may 2008+ and 2005 for anything below)
+* Detours3 or any hooking utils
+* any decompiler that allows you see functions
+* knowledge of C/C++
+* StudPE
+
+first create a win32 project as a DLL, then link detours3 (you should know how to do this, i'm not helping you with this)
+next thing you need is to export a C (doesn't have to be but the names are cleaner) function
+you can do this via extern "C"
+so you would do extern "C" void myFunction() {};
+but problem is that we didn't export it yet, in VC++, you have to use __declspec(dllexport) BEFORE the return signature
+so now it's extern "C" __declspec(dllexport) void PE_Entry() {};
+
+next thing is to create a thread, i won't go into too much details because i don't know jackshit
+so in your DllMain function you see where it says DLL_PROCESS_ATTACH? under it paste in this
+DisableThreadLibraryCalls(hModule);
+CreateThread(0, 0, (LPTHREAD_START_ROUTINE)threadEntry, hModule, 0, 0);
+so now we created a thread that doesn't block the actual roblox player so we could yield without worry
+
+create a void function called threadEntry, this is where all your main code goes
+now we need to account for ASLR, since roblox uses that to prevent exploiters and people like us
+#define ASLR(x) (x - 0x400000 + (DWORD)GetModuleHandleA(0))
+this macro is what helps with ASLR, whenever you have a location just do ASLR(myLocation)
+if you want to learn more, use google please
+
+let's actually dllhook, in ida pro find the function you are looking for (e.g isRobloxSite)
+the function name should be like sub_locationhere
+you can copy the locationhere part, if not, then go to assembly view and the number on the left of your function name is your location
+let's look at the first part of hooking (snippet taken from marsoc)
+typedef void (__cdecl* pushS_t)(DWORD*, const char*); // this is our type, since the function we use is a C function we use __cdecl, then DWORD*, const char* is the args
+UINT_PTR pushS_a = 0x675A20; // address of function
+pushS_t pushS = reinterpret_cast<pushS_t>(ASLR(pushS_a)); // we cast a pointer to the function and we can now call the function like so: pushS(DWORD*, const char*)
+
+next part, based on the type of the function you need to recreate the signature of the function 1:1
+so now it would be
+void __cdecl pushS_hook(DWORD* a1, const char* a2) {
+    puts("hello there!");
+    return pushS(a1, a2); // we pass on the args to the real function so we can actually run it and the client functions as normal
+}
+finally, in your threadEntry function, you need to setup detours or whatever you use and hook
+detours3 example:
+DetourTransactionBegin();
+DetourUpdateThread(GetCurrentThread());
+DetourAttach((PVOID*)&pushS, pushS_hook); // the first arg is the original function we are hooking into, the next arg is our new function we call instead of that
+DetourTransactionCommit();
+
+now just build.
+finally at the end use StudPE or any other program (whatever works) to import the dll
+now when you run it you should see nothing, you just hooking something
+if you want a console to appear, google it i'm too lazy to explain
+otherwise, you're fine

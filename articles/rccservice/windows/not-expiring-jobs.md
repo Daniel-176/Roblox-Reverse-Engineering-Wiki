@@ -1,4 +1,4 @@
-# RCCService — Not Expiring Jobs
+# RCCService: Not Expiring Jobs
 
 *Credits: Reddit user (original), meditation/meditext (documentation)*
 
@@ -11,7 +11,7 @@ Replace: `00 00 f8 1f 5f a0 02 42`
 
 This prevents the RCC from shutting down randomly.
 
-> ⚠️ DO NOT USE THIS FOR PRODUCTION — causes memory leakage.
+> Do not use this in production. It causes memory leakage.
 
 ## Closing JobItem Patch
 
@@ -21,4 +21,4 @@ This prevents the RCC from shutting down randomly.
 
 ## RCC Timeout
 
-Same hex change: `00 00 00 00 00 c0 82 40` → `00 00 f8 1f 5f a0 02 42`
+Same hex change: `00 00 00 00 00 c0 82 40` to `00 00 f8 1f 5f a0 02 42`

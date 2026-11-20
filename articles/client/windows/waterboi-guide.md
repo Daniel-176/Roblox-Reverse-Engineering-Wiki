@@ -1,8 +1,8 @@
-# Waterboi's Patching Guide — 2007–2021E
+# Waterboi's Patching Guide: 2007-2021E
 
 *Credits: waterboi (author), Jetray (2021E section)*
 
-This guide covers everything from 2007 - 2021E. (2014 Added, and more)
+Patching notes for Windows clients from 2007 through 2021E.
 
 Tools needed:
 - Website (Join and asset API's)

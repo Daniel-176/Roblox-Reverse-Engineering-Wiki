@@ -13,7 +13,7 @@ function getArticleTree(): array {
         'misc' => 'Misc',
         'utilities' => 'Utilities',
         'knowledge' => 'Knowledge',
-        ""
+        'security' => 'Security',
     ];
     $subLabels = [
         'windows' => 'Windows',
@@ -149,14 +149,6 @@ function searchArticles(string $query): array {
     }
     usort($results, fn($a, $b) => $b['relevance'] - $a['relevance']);
     return $results;
-}
-
-function getCategoryIcon(string $cat): string {
-    return '';
-}
-
-function getSubIcon(string $sub): string {
-    return '';
 }
 
 function extractDescription(string $filePath): string {

@@ -4,6 +4,9 @@ RewriteEngine On
 RewriteRule ^includes/ - [F,L]
 RewriteRule ^templates/ - [F,L]
 
+# Vault files are served as-is
+RewriteRule ^vault/ - [L]
+
 # Block access to .md files directly
 RewriteRule \.md$ - [F,L]
 

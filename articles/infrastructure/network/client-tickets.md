@@ -1,6 +1,6 @@
 # Client Tickets
 
-*Description: Client ticket formats and authentication — covering pre-2017 and 2018+ protocols*
+*Description: Client ticket formats and authentication, covering pre-2017 and 2018+ protocols*
 *Credits: lrre.wiki (original documentation), (community source)*
 
 *Tabs*

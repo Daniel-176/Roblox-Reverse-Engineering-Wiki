@@ -1,0 +1,13 @@
+how 2 ACTUALLY dll hook roblox clients
+
+tutorial by Skyler-sama, thanks stackexchange for the help!!!! heart!
+
+1- install this from archive.org http://www.woodmann.com/collaborative/tools/images/Bin_LordPE_2010-6-29_3.9_LordPE_1.41_Deluxe_b.zip
+2- open lordpe and click on "PE Editor" and select ur Roblox exe binary
+3- click on directories
+4- in the directory information, there's ImportTable. click on it's ellipsis (aka 3 dots)
+5- right click on the ImportTable listing and choose "add import"
+6- add ur dll's name and an export from ur DLL
+7- press ok and save
+
+enjoy your hooked dll! heart!

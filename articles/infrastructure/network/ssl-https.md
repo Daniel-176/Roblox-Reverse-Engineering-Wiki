@@ -1,10 +1,10 @@
-# Network — SSL & HTTPS Patching
+# Network: SSL & HTTPS Patching
 
 ## SSL Patch
 
 *Credits: ORC guide server community*
 
-patch ssl by jmping CURLOPT_SSL_VERIFYPEER
+Search for `CURLOPT_SSL_VERIFYPEER` and bypass the check with a jump.
 
 ---
 
@@ -12,19 +12,13 @@ patch ssl by jmping CURLOPT_SSL_VERIFYPEER
 
 *Credits: ORC guide server community*
 
-Dinner table on god
+## HTTPS Patch (Most Clients)
 
-Https patch for MOST CLIENTS!!!
-
-1. string search mc
-2. find the string that only say mc
-3. double click one of them and find jne or je (if it doesn't show at the mc you double click go to the other one)
-4. jmp it
-5. go to the other one that doesn't have jne
-6. scroll up till you find robloxlabs.com (unless you patched robloxlabs to be your domain, then look for your domain)
-7. jmp on top of robloxlabs (or your domain)
-
-BOOM HTTPS PATCHED!!!
+1. Search for the string `mc` and find a result that contains only `mc`.
+2. Double-click it. If a `JE` or `JNE` appears nearby, change it to `JMP`.
+3. Open the other `mc` result, the one without a nearby `JNE`.
+4. Find `robloxlabs.com`, or your replacement domain if you already changed it.
+5. Change the jump above that string to `JMP`.
 
 ---
 
@@ -32,7 +26,7 @@ BOOM HTTPS PATCHED!!!
 
 *Credits: ORC guide server community*
 
-How to patch universes/validate-place-join (ID 146):
+To patch `universes/validate-place-join` (ID 146):
 
 1. string search for PlaceAuthenticationThread
 2. then change JE to JMP
@@ -44,6 +38,4 @@ How to patch universes/validate-place-join (ID 146):
 
 *Credits: ORC guide server community*
 
-jmp CryptVerifySignature error
-
-tested on 2019M-2019L (july-september)
+Change the `CryptVerifySignature` error branch to `JMP`. The note reports testing on 2019M-2019L (July-September); it does not specify the year.

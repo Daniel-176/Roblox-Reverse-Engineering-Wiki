@@ -16,4 +16,4 @@ Change to:
 -- pcall(function() settings().Network.PhysicsSend = Enum.PhysicsSendMethod.ErrorComputation2 end)
 ```
 
-Rehost and rejoin — issue should be fixed.
+Rehost and rejoin. The issue should be fixed.

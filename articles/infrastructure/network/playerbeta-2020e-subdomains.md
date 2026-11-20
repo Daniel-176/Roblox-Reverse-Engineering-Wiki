@@ -27,4 +27,4 @@ The following was extracted from `/Middleware/2020E/RobloxPlayerBeta.exe` (≈33
 - The binary is VMProtect-packed, indicating Roblox began applying code virtualization/obfuscation to the PlayerBeta by 2020.
 - Most domain strings (API, asset, CDN endpoints) are likely constructed at runtime or stored in protected/encrypted sections, making them invisible to a basic `strings` scan.
 - The single visible `www.roblox.com` string is likely used as a fallback/reference URL (e.g. in dialog text or error messages).
-- This contrasts sharply with the 2016 PlayerBeta which had numerous plain-text subdomain strings — by 2020, Roblox had moved to runtime URL construction.
+- This contrasts sharply with the 2016 PlayerBeta, which had many plain-text subdomain strings. By 2020 Roblox had moved to building URLs at runtime.

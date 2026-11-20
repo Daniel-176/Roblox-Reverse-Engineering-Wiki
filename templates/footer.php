@@ -7,7 +7,7 @@
             Roblox Reverse Engineering Wiki
         </div>
         <div class="footer-right">
-            Powered by the community | <strong><?= count(getAllArticles()) ?></strong> articles
+            <strong><?= count(getAllArticles()) ?></strong> articles
         </div>
     </div>
 </div>

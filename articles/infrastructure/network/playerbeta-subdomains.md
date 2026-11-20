@@ -28,5 +28,5 @@ The following subdomains were extracted from `/Middleware/2016/Player/RobloxPlay
 
 - The `apiKey` query parameter in the API format string suggests early key-based authentication for REST endpoints.
 - The `test.public.ecs` subdomain indicates a staging/test environment for Roblox's custom compute platform.
-- Build path in PDB-like strings: `D:\BuildAgent\work\Trunk2012\Client\App\` — confirms this is based on the 2012 trunk, distributed as a "2016 PlayerBeta."
+- Build path in PDB-like strings: `D:\BuildAgent\work\Trunk2012\Client\App\`. This shows it is based on the 2012 trunk and was distributed as a "2016 PlayerBeta".
 - The binary was fully domain-patched; no original Roblox domain strings remain unmodified.
