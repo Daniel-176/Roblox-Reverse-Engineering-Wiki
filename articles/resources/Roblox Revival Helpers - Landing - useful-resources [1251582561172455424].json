@@ -1,0 +1,544 @@
+{
+  "guild": {
+    "id": "1251582383711584256",
+    "name": "Roblox Revival Helpers",
+    "iconUrl": "https://cdn.discordapp.com/icons/1251582383711584256/e8139f3a05d989de1f5111c96d03f3bd.png?size=512"
+  },
+  "channel": {
+    "id": "1251582561172455424",
+    "type": "GuildTextChat",
+    "categoryId": "1251582444961005619",
+    "category": "Landing",
+    "name": "useful-resources",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "exportedAt": "2026-11-19T23:59:38.861812-03:00",
+  "messages": [
+    {
+      "id": "1251628309087785042",
+      "type": "Default",
+      "timestamp": "2024-06-15T17:04:03.016-03:00",
+      "timestampEdited": "2025-02-20T10:16:51.696-03:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "# ORCdot7z\n### **Type:** `Github repository`\n### **Author:** `OMEGA DEV team`\n### **Rating:** `★ ★ ★ ★`\n### **Description:** `Contains a lot of guides on patching different version of Roblox clients and RCCService`\n**Advantages:**\n⚬ Great amount of patches on every taste and version\n⚬ A lot of unique / hard-to-find patches\n**Problems:**\n⚬ The repository is still incomplete\n⚬  Somewhat unprofessional writing\n**NOTE**: The archive is now private, use the link\nhttps://cdn.discordapp.com/attachments/1251582384906698877/1274422954507239434/ORC.7z?ex=67b8121d&is=67b6c09d&hm=a3430f0f041f46e31a8bd3ea87870d467d8de417ba8fd34da082c991f74ace5b&",
+      "author": {
+        "id": "411970174552506368",
+        "name": "gravity_hq",
+        "discriminator": "0000",
+        "nickname": "Lemon4K",
+        "color": "#979C9F",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1251626923331948637",
+            "name": "Owner",
+            "color": "#979C9F",
+            "position": 13
+          },
+          {
+            "id": "1382770321005871215",
+            "name": "Announcements",
+            "color": "#1F8B4C",
+            "position": 3
+          },
+          {
+            "id": "1251626660730765312",
+            "name": "Verified",
+            "color": "#2ECC71",
+            "position": 2
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/411970174552506368/78d8cc8d924c08d22fc83cfb56b8043a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1251633585559961610",
+      "type": "Default",
+      "timestamp": "2024-06-15T17:25:01.025-03:00",
+      "timestampEdited": "2024-06-15T17:30:56.703-03:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "# [rblx-scripts](https://github.com/yoshi295295/rblx-scripts)\n### **Type:** `Github repository`\n### **Author:** `(ﾟ∀ﾟ) (currently taken down, repository owned by yoshi295295)`\n### **Rating:** `★ ★ ★`\n### **Description:** `Contains various /game/ scripts useful for setting up a revival`\n**Advantages:**\n⚬ Contains original join and other scripts from 2006 - 2018 from web archive\n⚬ Easy to find / access scripts\n**Problems:**\n⚬  Absent scripts from 2006 - 2011 \n⚬  Good amount of useful scripts for other versions are not present, yet avalible on web archive",
+      "author": {
+        "id": "411970174552506368",
+        "name": "gravity_hq",
+        "discriminator": "0000",
+        "nickname": "Lemon4K",
+        "color": "#979C9F",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1251626923331948637",
+            "name": "Owner",
+            "color": "#979C9F",
+            "position": 13
+          },
+          {
+            "id": "1382770321005871215",
+            "name": "Announcements",
+            "color": "#1F8B4C",
+            "position": 3
+          },
+          {
+            "id": "1251626660730765312",
+            "name": "Verified",
+            "color": "#2ECC71",
+            "position": 2
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/411970174552506368/78d8cc8d924c08d22fc83cfb56b8043a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - yoshi295295/rblx-scripts: Various roblox scripts.",
+          "url": "https://github.com/yoshi295295/rblx-scripts",
+          "timestamp": null,
+          "description": "Various roblox scripts. Contribute to yoshi295295/rblx-scripts development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/q_yPgdOHk_0Im1bdvPARDF60q7yqRQZhgU0beTtrky0/https/opengraph.githubassets.com/465071dbc52aa4baf54797cc287c54762843e6813296a2bfd3e4ca2a02d67bf2/yoshi295295/rblx-scripts",
+            "canonicalUrl": "https://opengraph.githubassets.com/465071dbc52aa4baf54797cc287c54762843e6813296a2bfd3e4ca2a02d67bf2/yoshi295295/rblx-scripts",
+            "width": 1200,
+            "height": 600
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1251635328520028303",
+      "type": "Default",
+      "timestamp": "2024-06-15T17:31:56.579-03:00",
+      "timestampEdited": "2025-09-21T15:50:34.474-03:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "# [RbxSigTools](https://www.mediafire.com/file/msbfxp1ades6v9j/tools.zip/file)\n### **Type:** `ZIP-archive with an executable`\n### **Author:** `lrre-foss community`\n### **Rating:** `★ ★ ★ ★ ★`\n### **Description:** `Generates keys and signs any files with Roblox-like signature to pass trust check`\n**Advantages:**\n⚬ Generates keys for you\n⚬ Has different signing formats\n⚬ Instantly signs any file\n**Problems:**\n⚬  No user interface",
+      "author": {
+        "id": "411970174552506368",
+        "name": "gravity_hq",
+        "discriminator": "0000",
+        "nickname": "Lemon4K",
+        "color": "#979C9F",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1251626923331948637",
+            "name": "Owner",
+            "color": "#979C9F",
+            "position": 13
+          },
+          {
+            "id": "1382770321005871215",
+            "name": "Announcements",
+            "color": "#1F8B4C",
+            "position": 3
+          },
+          {
+            "id": "1251626660730765312",
+            "name": "Verified",
+            "color": "#2ECC71",
+            "position": 2
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/411970174552506368/78d8cc8d924c08d22fc83cfb56b8043a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "tools",
+          "url": "https://www.mediafire.com/file/msbfxp1ades6v9j/tools.zip/file",
+          "timestamp": null,
+          "description": "",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/VZdtvSGyxGRawzWKd1kcjE1gxWu75bKkzxios6aPra0/https/static.mediafire.com/images/filetype/download/zip.jpg",
+            "canonicalUrl": "https://static.mediafire.com/images/filetype/download/zip.jpg",
+            "width": 250,
+            "height": 250
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1251665659977531412",
+      "type": "Default",
+      "timestamp": "2024-06-15T19:32:28.162-03:00",
+      "timestampEdited": "2024-06-16T08:05:40.082-03:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "# [The Roblox Archive](https://archive.roblonium.com/)\n### **Type:** `Online archive`\n### **Author:** `Community`\n### **Rating:** `★ ★ ★ ★`\n### **Description:** `AKA Roblonium. Contains various Roblox Apps, Studios, Players and RCCService. The biggest Roblox archive.`\n**Advantages:**\n⚬ A lot of version with a wide margin from 2007 - 2018\n⚬ Includes versions from various game tests\n**Problems:**\n⚬  A lot of corrupt version, only 3 - 5 fully working per year",
+      "author": {
+        "id": "411970174552506368",
+        "name": "gravity_hq",
+        "discriminator": "0000",
+        "nickname": "Lemon4K",
+        "color": "#979C9F",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1251626923331948637",
+            "name": "Owner",
+            "color": "#979C9F",
+            "position": 13
+          },
+          {
+            "id": "1382770321005871215",
+            "name": "Announcements",
+            "color": "#1F8B4C",
+            "position": 3
+          },
+          {
+            "id": "1251626660730765312",
+            "name": "Verified",
+            "color": "#2ECC71",
+            "position": 2
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/411970174552506368/78d8cc8d924c08d22fc83cfb56b8043a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "ROBLOX Archive",
+          "url": "https://archive.roblonium.com/",
+          "timestamp": null,
+          "description": "The biggest ROBLOX Archive containing old ROBLOX clients and more.",
+          "color": "#FF3333",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1251667171134931025",
+      "type": "Default",
+      "timestamp": "2024-06-15T19:38:28.45-03:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "# [Complete Client Archive](https://drive.google.com/drive/folders/1XZpSoJGEsxC2UkKiypm_hIpU2yV4au9q?usp=sharing)\n### **Type:** `Google Drive`\n### **Author:** `ChromeAdders`\n### **Rating:** `★ ★ ★ ★`\n### **Description:** `Contains Roblox - RobloxStudioBeta versions from 2007 - 2018`\n**Advantages:**\n⚬ Includes versions like build for BloxxCon Virtual, FIB v9\n⚬ Lesser percentage of corrupt versions compared to Roblonium\n**Problems:**\n⚬  After 2012, only has Roblox Studio with no Player clients",
+      "author": {
+        "id": "411970174552506368",
+        "name": "gravity_hq",
+        "discriminator": "0000",
+        "nickname": "Lemon4K",
+        "color": "#979C9F",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1251626923331948637",
+            "name": "Owner",
+            "color": "#979C9F",
+            "position": 13
+          },
+          {
+            "id": "1382770321005871215",
+            "name": "Announcements",
+            "color": "#1F8B4C",
+            "position": 3
+          },
+          {
+            "id": "1251626660730765312",
+            "name": "Verified",
+            "color": "#2ECC71",
+            "position": 2
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/411970174552506368/78d8cc8d924c08d22fc83cfb56b8043a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1358707994451378289",
+      "type": "Default",
+      "timestamp": "2025-04-07T04:40:29.451-03:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://free-for.dev/#/?id=web-hosting",
+      "author": {
+        "id": "411970174552506368",
+        "name": "gravity_hq",
+        "discriminator": "0000",
+        "nickname": "Lemon4K",
+        "color": "#979C9F",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1251626923331948637",
+            "name": "Owner",
+            "color": "#979C9F",
+            "position": 13
+          },
+          {
+            "id": "1382770321005871215",
+            "name": "Announcements",
+            "color": "#1F8B4C",
+            "position": 3
+          },
+          {
+            "id": "1251626660730765312",
+            "name": "Verified",
+            "color": "#2ECC71",
+            "position": 2
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/411970174552506368/78d8cc8d924c08d22fc83cfb56b8043a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Free for Developers",
+          "url": "https://free-for.dev/",
+          "timestamp": null,
+          "description": "Developers and Open Source authors now have a massive amount of services offering free tiers, but it can be hard to find them all to make informed decisions.",
+          "thumbnail": {
+            "url": "https://images-ext-1.discordapp.net/external/cOUqTmpHGWabgZUI5kRumlaOLtYXGle00fYmeIASulk/https/raw.githubusercontent.com/ripienaar/free-for-dev/master/logo.webp",
+            "canonicalUrl": "https://raw.githubusercontent.com/ripienaar/free-for-dev/master/logo.webp",
+            "width": 250,
+            "height": 250
+          },
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1368333472489275452",
+      "type": "Default",
+      "timestamp": "2025-05-03T18:08:42.248-03:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "# [Patching Guides Wiki](https://uboomblox.miraheze.org/wiki/Patching)\n### **Type:** `mediawiki`\n### **Author:** `@vf94`\n### **Rating:** `★ ★ ★ ★`\n### **Description:** `Contains tutorials on a multitude of Roblox patches`\n**Advantages:**\n⚬ A variety of great patches for vulnerabilities and more stuff\n⚬ The whole Unofficial wiki of Boomblox contains a lot of great information about the Roblox Clients\n**Problems:**\n⚬  Still unfinished, needs polishing",
+      "author": {
+        "id": "411970174552506368",
+        "name": "gravity_hq",
+        "discriminator": "0000",
+        "nickname": "Lemon4K",
+        "color": "#979C9F",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1251626923331948637",
+            "name": "Owner",
+            "color": "#979C9F",
+            "position": 13
+          },
+          {
+            "id": "1382770321005871215",
+            "name": "Announcements",
+            "color": "#1F8B4C",
+            "position": 3
+          },
+          {
+            "id": "1251626660730765312",
+            "name": "Verified",
+            "color": "#2ECC71",
+            "position": 2
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/411970174552506368/78d8cc8d924c08d22fc83cfb56b8043a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Patching",
+          "url": "https://uboomblox.miraheze.org/wiki/Patching",
+          "timestamp": null,
+          "description": "Patching is a common method used to modify an application in order to fix or change something.\nOn Roblox clients, typically done with a debugger app like x64dbg and maybe assisted by IDA or Ghidra",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1440411913304543382",
+      "type": "Default",
+      "timestamp": "2025-11-18T15:42:41.691-03:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://github.com/rbxcdn/RBXGuides",
+      "author": {
+        "id": "411970174552506368",
+        "name": "gravity_hq",
+        "discriminator": "0000",
+        "nickname": "Lemon4K",
+        "color": "#979C9F",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1251626923331948637",
+            "name": "Owner",
+            "color": "#979C9F",
+            "position": 13
+          },
+          {
+            "id": "1382770321005871215",
+            "name": "Announcements",
+            "color": "#1F8B4C",
+            "position": 3
+          },
+          {
+            "id": "1251626660730765312",
+            "name": "Verified",
+            "color": "#2ECC71",
+            "position": 2
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/411970174552506368/78d8cc8d924c08d22fc83cfb56b8043a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "GitHub - rbxcdn/RBXGuides: Guides for patching R9blox Clients/RCCSe...",
+          "url": "https://github.com/rbxcdn/RBXGuides",
+          "timestamp": null,
+          "description": "Guides for patching R9blox Clients/RCCService. Contribute to rbxcdn/RBXGuides development by creating an account on GitHub.",
+          "color": "#1E2327",
+          "images": [],
+          "fields": [],
+          "inlineEmojis": []
+        }
+      ],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1464389618542710937",
+      "type": "Default",
+      "timestamp": "2026-01-23T19:41:32.104-03:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "https://cdn.discordapp.com/attachments/1251582638263763196/1464389482978607239/SoapUI.exe?ex=69754a7b&is=6973f8fb&hm=860544d52d0ae55100878715526a061cd954bbe304c1178802ab005c6fa6dc84&",
+      "author": {
+        "id": "411970174552506368",
+        "name": "gravity_hq",
+        "discriminator": "0000",
+        "nickname": "Lemon4K",
+        "color": "#979C9F",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1251626923331948637",
+            "name": "Owner",
+            "color": "#979C9F",
+            "position": 13
+          },
+          {
+            "id": "1382770321005871215",
+            "name": "Announcements",
+            "color": "#1F8B4C",
+            "position": 3
+          },
+          {
+            "id": "1251626660730765312",
+            "name": "Verified",
+            "color": "#2ECC71",
+            "position": 2
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/411970174552506368/78d8cc8d924c08d22fc83cfb56b8043a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    },
+    {
+      "id": "1464389668832280786",
+      "type": "Default",
+      "timestamp": "2026-01-23T19:41:44.094-03:00",
+      "timestampEdited": "2026-01-23T19:41:52.156-03:00",
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "soap ui for sending soap requests to rcc",
+      "author": {
+        "id": "411970174552506368",
+        "name": "gravity_hq",
+        "discriminator": "0000",
+        "nickname": "Lemon4K",
+        "color": "#979C9F",
+        "isBot": false,
+        "roles": [
+          {
+            "id": "1251626923331948637",
+            "name": "Owner",
+            "color": "#979C9F",
+            "position": 13
+          },
+          {
+            "id": "1382770321005871215",
+            "name": "Announcements",
+            "color": "#1F8B4C",
+            "position": 3
+          },
+          {
+            "id": "1251626660730765312",
+            "name": "Verified",
+            "color": "#2ECC71",
+            "position": 2
+          }
+        ],
+        "avatarUrl": "https://cdn.discordapp.com/avatars/411970174552506368/78d8cc8d924c08d22fc83cfb56b8043a.png?size=512"
+      },
+      "attachments": [],
+      "embeds": [],
+      "stickers": [],
+      "reactions": [],
+      "mentions": [],
+      "inlineEmojis": []
+    }
+  ],
+  "messageCount": 10
+}
